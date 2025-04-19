@@ -33,7 +33,6 @@
     const style = document.createElement("style");
 
     style.innerHTML = css;
-
     document.querySelector("body").appendChild(style);
   }
 
