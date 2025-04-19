@@ -10,10 +10,10 @@ Create/Find and use custom CSS on Silly Dev.
 
 ## Config:
 
-If you are just pasting some CSS, set `local` to `true` and paste your css in `source`,
-Otherwise, if you are getting your CSS from Github, etc. set `local` to `false` and paste the link to the CSS in `source`. 
+If you are using local CSS, set `local` to `true` and paste your css in `source`.
 
 ### CSS from online:
+If you are getting your CSS from Github, etc. set `local` to `false` and paste the link to the CSS in `source`. 
 ```json
 {
     local: false, 
@@ -22,9 +22,11 @@ Otherwise, if you are getting your CSS from Github, etc. set `local` to `false` 
 ```
 
 ### CSS locally:
+If you are using local CSS, set `local` to `true` and paste your css in `source`.
 ```json
 {
     local: true, 
     source: `body {background-color: white;}`
 }
 ```
+Feel free to create your own themes and share them. If you want, fork the repo and send a pull request and it will get reviewed.
